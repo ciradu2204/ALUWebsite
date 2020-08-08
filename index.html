@@ -1,115 +1,288 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>ALU Website</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel="shortcut icon" href="images/logo1.v1 (2).png">
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
-  <link rel='stylesheet' type='text/css' media='screen' href='bootstrap/css/bootstrap.min.css'>
- 
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/images/logo1.v1.png" />
+    <meta property="og:site_name" content="African Leadership University" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alueducation.com/" />
+    <meta property="og:title" content="African Leadership University" />
+    <meta property="og:description" content="African Leadership University - ALU" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>African Leadership University - ALU </title>
+    <link type="text/css" rel="stylesheet" href="./Css/index.css" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
-        <a class="navbar-brand" href="#" style="width: 80px">
-          <img src="images/alu_logo.png">
-        
-        </a>
-      </div>
+    <div class="main-container">
+        <nav class="navbar navbar-expand-lg navbar-light custom-color">
+            <img src="./img/alu_logo_original.png" alt="ALU Logo" class="img-size">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-column " id="navbar">
+                <ul class="navbar-nav w-100 justify-content-center spacing">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Students<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Parents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Faculty & Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Aluminae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">News</a>
+                    </li>
+                </ul>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav" style="margin-left: 200px;">
-          <li><a href="#">Students <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Parents </a></li>
-          <li><a href="#">Faculty & Staff</a></li>
-          <li><a href="#">Almnae</a></li>
-          <li><a href="#">News</a></li>
-          <br>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">ACADEMICS <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">ALU Advantage</a></li>
-              <li><a href="#">Undergraduate Programme</a></li>
-              <li><a href="#">ALU Differencce</a></li>
-              <li><a href="#">Graduate Programme</a></li>
-              <li><a href="#">Academic calendar</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">ADMISSIONS & AID<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Undergraduate Admission</a></li>
-              <li><a href="#">Start Application</a></li>
-              <li><a href="#">Postgraduate MBA</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">STUDENT LIFE <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Living at ALU</a></li>
-              <li><a href="#">Campus Life</a></li>
-              <li><a href="#">Student organisation</a></li>
-              <li><a href="#">Student handbook</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">ABOUT ALU <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Our approach</a></li>
-              <li><a href="#">Our learning model</a></li>
-              <li><a href="#">Our leadership</a></li>
-              <li><a href="#">The ALU Impact report</a></li>
-              <li><a href="#">Faculty academic leadership</a></li>
-              <li><a href="#">Our founding academic partner</a></li>
-              <li><a href="#">Our policies</a></li>
-            </ul>
-          </li>
-          <div class="searchbar">
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <div class="togglesearch">
-              <input type="text" placeholder="" />
-              <input type="button" onClick="refreshPage()" value="Search" />
-              <script>
-                function refreshPage() {
-                  window.location.reload();
-                } 
-              </script>
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Academics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">ALU Advantage</a>
+                            <a class="dropdown-item" href="#">Undergraduate Programme</a>
+                            <a class="dropdown-item" href="#">ALU Difference</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Admission & Aid
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Undergraduate admission</a>
+                            <a class="dropdown-item" href="#">Start application</a>
+                            <a class="dropdown-item" href="#">PostGraduate MBA</a>
+                            <a class="dropdown-item" href="#">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Student Life
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Living at ALU</a>
+                            <a class="dropdown-item" href="#">Campus Life</a>
+                            <a class="dropdown-item" href="#">Student Organisation</a>
+                            <a class="dropdown-item" href="#">Student Handbook</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About ALU
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="#">Our approach</a>
+                            <a class="dropdown-item" href="#">Our learning model </a>
+                            <a class="dropdown-item" href="#">Our leadership</a>
+                            <a class="dropdown-item" href="#">The ALU Impact report</a>
+                            <a class="dropdown-item" href="#">Faculty academic leadership</a>
+                            <a class="dropdown-item" href="#">Our founding academic partner</a>
+                            <a class="dropdown-item" href="#">Our policies</a>
+                        </div>
+                    </li>
+                    <li>
+                        <form>
+                            <!-- <input type="text" placeholder="Search..."> -->
+                            <div class="search">
+                                <i class="fa fa-search fa-lg">
+
+                                </i></div>
+                        </form>
+
+                    </li>
+                </ul>
+
             </div>
-          </div>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
-  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script> -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src='bootstrap/js/bootstrap.min.js'></script>
-   <script src="https://kit.fontawesome.com/f0724ad0f4.js"></script>
-  <script src='js/main.js'></script>
+
+        </nav>
+        <!-- the start of the main content -->
+
+        <section class="mainContent">
+            <div class="container">
+
+                <div class="row no-gutters">
+
+                    <img src="./img/ALUmission.jpg" class="img-fluid img">
+
+
+                </div>
+
+                <div class="row no-gutters">
+
+                    <div class="col-6 ">
+
+                        <img src="./img/StudentLife.jpg" class="img-fluid">
+
+                    </div>
+
+                    <div class="col-6 ">
+                        <img src="./img/undergraduate_admissions.jpg" class="img-fluid">
+
+                    </div>
+
+                </div>
+                <img src="./img/african-leadership-university-campus.jpg" class="img-fluid img">
+                <div class="row rows no-gutters">
+
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-6">
+                        <img src="./img/culture.jpg" class="img-fluid">
+                    </div>
+
+                    <div class="col-6">
+                        <img src="./img/graduates.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+
+            <h1 style="text-align: center; font-size: 25px; padding: 10px;">ALU, in the moment</h1>
+
+            <div class="container">
+                <div class="row one row-eq-height">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row two row-eq-height">
+                            <div>
+                                <img src="./img/Jack-Ma-foundation.png" class="img-fluid news">
+                            </div>
+
+
+                            <div style="background-color: #002e6d; padding: 10px; color: white; text-align: center;">
+                                <!-- <h1 style="font-size: 20px;">THE JACK MA FOUNDATION’S AFRICA NETPRENEUR
+                                    PRIZE INITIATIVE</h1> -->
+                                <p style ="text-align:left;">The Jack Ma Foundation works to empower entrepreneurs and drive positive change. As
+                                    such in
+                                    partnership with the African Leadership Group (ALG), it has introduced the flagship,
+                                    philanthropic entrepreneurship program
+                                    in Africa known as the African Netpreneur Prize Initiative (ANPI). </p>
+                                <button type="button" class="btn" style="background-color: #d0202f; color: white; border-radius: 10px;">Read
+                                    more</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row no-gutters row-eq-height">
+
+                            <div class="row no-gutters row-eq-height">
+                                <div class="col-sm-12 col-md-6">
+                                    <img src="./img/studyTips.png" alt="Hope Mutua" class="img-fluid">
+                                </div>
+
+                                <div class="col-sm-12 col-md-6"
+                                    style="background-color: #002e6d; color: white; padding: 5px; position: relative;">
+
+                                    <p style="text-align: left; padding-left:5px ;">
+                                        Co-Founder of FemmePWR and recent ALC first-class honors graduate, Hope Mutua
+                                        gives
+                                        us some studying at home tips.
+                                    </p>
+
+
+                                    <a>
+                                        <i class="fa fa-angle-right"
+                                            style="position: absolute; bottom: 0; right: 5px; color: #d0202f; font-size: 25px;"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            <div class="row no-gutters row-eq-height" style="padding-top: 8px;">
+
+                                <div class=" col-sm-12 col-md-6">
+                                    <img src="./img/Sisekelo.jpg" alt="Sisekelo" class="img-fluid">
+                                </div>
+
+                                <div class="col-sm-12 col-md-6"
+                                    style="background-color: #002e6d; color: white; padding: 5px; position: relative;">
+                                    <p style="text-align: left; padding-left:5px ;">
+                                        What would you do if your biggest venture became your greatest failure? Would
+                                        you start
+                                        again? Check out this story from one of our students, Sisekelo Dlamini.
+                                    </p>
+
+                                    
+                                    <a>
+                                        <i class="fa fa-angle-right"
+                                            style="position: absolute; bottom: 0; right: 5px;; color: #d0202f; font-size: 25px;"></i>
+                                    </a>
+                            
+                                </div>
+
+                            </div>
+
+                            <div class="row no-gutters row-eq-height" style="padding-top: 8px; position: relative;">
+
+                                <div class="col-md-6 col-sm-12">
+                                    <img src="./img/remainProductive.png" alt="entrepreneurship" class="img-fluid">
+                                </div>
+
+                                <div class="col-md-6 col-sm-12"
+                                    style="background-color: #002e6d; color: white; padding: 5px;">
+                                    <p style="text-align:left; padding: 3px;">
+                                        How do you maintain relations with the people you
+                                        serve during these uncertain times of COVID-19? How do you remain productive?
+                                    </p>
+
+                
+                                    <a>
+                                        <i class="fa fa-angle-right"
+                                            style="position: absolute; bottom: 0; right: 5px; color: #d0202f; font-size: 25px;"></i>
+                                    </a>
+                            
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="Connect">
+
+            <h1 style="text-align: center; font-size: 25px; padding: 10px;">Connect with ALU</h1>
+
+
+        </section>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+            integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
