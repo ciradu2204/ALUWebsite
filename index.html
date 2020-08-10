@@ -16,6 +16,7 @@
         integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
 </head>
 
 <body>
@@ -98,10 +99,17 @@
                     <li>
                         <form>
                             <!-- <input type="text" placeholder="Search..."> -->
-                            <div class="search">
-                                <i class="fa fa-search fa-lg">
-
-                                </i></div>
+                            <div class="searchbar">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                 <div class="togglesearch">
+                                    <input type="text" placeholder=""/>
+                                    <input type="button" onClick="refreshPage()" value="Search"/>
+                                    <script>
+                                      function refreshPage(){
+                                          window.location.reload();
+                                      } 
+                                      </script>
+                                </div>
                         </form>
 
                     </li>
@@ -117,82 +125,153 @@
 
                 <div class="row no-gutters">
 
-                    <img src="./img/ALUmission.jpg" class="img-fluid img">
+
+                    <div style=" position: relative; background-color: black; opacity: 0.8;">
+
+                        <div  style="opacity: 0.5;">
+                            <img src="./img/ALUmission.jpg" class="img-fluid img">
+                        </div>
+                        
+
+                        <div class="content" style="position: absolute; top: 25%; left: 30%; width: 50%; color: white; font-size: 20px;">
+                              <h1 style="color: #d0202f;">Why ALU?</h1>
+                              <p>Everyone’s different—including you. That’s why at ALU,
+                                  We build the skills that you, as a young leader and entrepreneur will need for the future. Harness the characteristics essential for creating a mission-based life of impact and purpose. 
+                                   All ALU students develop 21st-century skills and network that will remain relevant amidst rapid global change.
+                                Want to guide that change? With the right education, you can.</p>
+                        </div>
+
+                    </div>
 
 
                 </div>
 
                 <div class="row no-gutters">
 
-                    <div class="col-6 ">
+                    <div class="col-6">
 
-                        <img src="./img/StudentLife.jpg" class="img-fluid">
+                        <div class="overlay">
+                           
+                            <div class="overlayImg">
+                                <img src="./img/StudentLife.jpg" class="img-fluid">
+                            </div>
+    
+                            <div class="border overlayP">
+                                <a>STUDENT LIFE</a>
+                            </div>
+
+                        </div>
 
                     </div>
 
                     <div class="col-6 ">
-                        <img src="./img/undergraduate_admissions.jpg" class="img-fluid">
+                        <div class="overlay1">
+                            <div class="overlayImg1">  
+                                <img src="./img/undergraduate_admissions.jpg" class="img-fluid">
+                            </div>
+                            <div class="border overlayP1">
+                                <a>PARENTS</a>
+                            </div>
+
+                        </div>
+                      
 
                     </div>
 
                 </div>
-                <img src="./img/african-leadership-university-campus.jpg" class="img-fluid img">
+     
                 <div class="row rows no-gutters">
+                    <div class="overlay2">
+                        <div class="overlayImg2">
+                            <img src="./img/african-leadership-university-campus.jpg" class="img-fluid img">
+                        </div>
 
+                        <div class="border overlayP2">
+                            <a>EXPLORE THE CAMPUS</a>
+                        </div>
+                    </div>
+
+                    
+                    
+                   
                 </div>
 
                 <div class="row no-gutters">
                     <div class="col-6">
-                        <img src="./img/culture.jpg" class="img-fluid">
+                        <div class="overlay3">
+                            
+                            <div class="overlayImg3">
+                                <img src="./img/Facilitators.jpg" class="img-fluid">
+                            </div>
+                            
+                            <div class="border overlayP3" >
+                                <a>FACILITATORS & STAFF</a>
+                            </div>
+                        </div>
+                        
                     </div>
 
                     <div class="col-6">
-                        <img src="./img/graduates.jpg" class="img-fluid">
+                        <div class="overlay4">
+
+                            <div class="overlayImg4">
+                                <img src="./img/graduates.jpg" class="img-fluid">
+                            </div>
+
+                            <div class="border overlayP4">
+
+                                <a>HIRE OUR GRADUATES</a>
+
+                            </div>
+
+                        </div>
+                       
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="">
+        <section class="aluNews">
 
-            <h1 style="text-align: center; font-size: 25px; padding: 10px;">ALU, in the moment</h1>
+            <h1>ALU, in the moment</h1>
 
             <div class="container">
                 <div class="row one row-eq-height">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-sm-12 col-lg-6">
                         <div class="row two row-eq-height">
                             <div>
                                 <img src="./img/Jack-Ma-foundation.png" class="img-fluid news">
                             </div>
 
 
-                            <div style="background-color: #002e6d; padding: 10px; color: white; text-align: center;">
+                            <div class="newsInfo">
                                 <!-- <h1 style="font-size: 20px;">THE JACK MA FOUNDATION’S AFRICA NETPRENEUR
                                     PRIZE INITIATIVE</h1> -->
-                                <p style ="text-align:left;">The Jack Ma Foundation works to empower entrepreneurs and drive positive change. As
+                                <p>The Jack Ma Foundation works to empower entrepreneurs and
+                                    drive positive change. As
                                     such in
                                     partnership with the African Leadership Group (ALG), it has introduced the flagship,
                                     philanthropic entrepreneurship program
                                     in Africa known as the African Netpreneur Prize Initiative (ANPI). </p>
-                                <button type="button" class="btn" style="background-color: #d0202f; color: white; border-radius: 10px;">Read
+                                <button type="button" class="btn"
+                                    style="background-color: #d0202f; color: white; border-radius: 10px;">Read
                                     more</button>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-sm-12 col-lg-6">
                         <div class="row no-gutters row-eq-height">
 
-                            <div class="row no-gutters row-eq-height">
-                                <div class="col-sm-12 col-md-6">
+                            <div class="row no-gutters row-eq-height newsCol">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
                                     <img src="./img/studyTips.png" alt="Hope Mutua" class="img-fluid">
                                 </div>
 
-                                <div class="col-sm-12 col-md-6"
-                                    style="background-color: #002e6d; color: white; padding: 5px; position: relative;">
+                                <div class="col-sm-12 col-md-12 col-lg-6 newsInfo">
 
-                                    <p style="text-align: left; padding-left:5px ;">
+                                    <p>
                                         Co-Founder of FemmePWR and recent ALC first-class honors graduate, Hope Mutua
                                         gives
                                         us some studying at home tips.
@@ -200,56 +279,51 @@
 
 
                                     <a>
-                                        <i class="fa fa-angle-right"
-                                            style="position: absolute; bottom: 0; right: 5px; color: #d0202f; font-size: 25px;"></i>
+                                        <i class="fa fa-angle-right"></i>
                                     </a>
 
                                 </div>
                             </div>
 
-                            <div class="row no-gutters row-eq-height" style="padding-top: 8px;">
+                            <div class="row no-gutters row-eq-height newsCol">
 
-                                <div class=" col-sm-12 col-md-6">
+                                <div class=" col-sm-12 col-md-12 col-lg-6">
                                     <img src="./img/Sisekelo.jpg" alt="Sisekelo" class="img-fluid">
                                 </div>
 
-                                <div class="col-sm-12 col-md-6"
-                                    style="background-color: #002e6d; color: white; padding: 5px; position: relative;">
-                                    <p style="text-align: left; padding-left:5px ;">
+                                <div class="col-sm-12 col-md-12 col-lg-6 newsInfo">
+                                    <p>
                                         What would you do if your biggest venture became your greatest failure? Would
                                         you start
                                         again? Check out this story from one of our students, Sisekelo Dlamini.
                                     </p>
 
-                                    
+
                                     <a>
-                                        <i class="fa fa-angle-right"
-                                            style="position: absolute; bottom: 0; right: 5px;; color: #d0202f; font-size: 25px;"></i>
+                                        <i class="fa fa-angle-right"></i>
                                     </a>
-                            
+
                                 </div>
 
                             </div>
 
-                            <div class="row no-gutters row-eq-height" style="padding-top: 8px; position: relative;">
+                            <div class="row no-gutters row-eq-height newsCol">
 
-                                <div class="col-md-6 col-sm-12">
+                                <div class="col-md-12 col-sm-12 col-lg-6">
                                     <img src="./img/remainProductive.png" alt="entrepreneurship" class="img-fluid">
                                 </div>
 
-                                <div class="col-md-6 col-sm-12"
-                                    style="background-color: #002e6d; color: white; padding: 5px;">
-                                    <p style="text-align:left; padding: 3px;">
+                                <div class="col-md-12 col-sm-12 col-lg-6 newsInfo">
+                                    <p>
                                         How do you maintain relations with the people you
                                         serve during these uncertain times of COVID-19? How do you remain productive?
                                     </p>
 
-                
+
                                     <a>
-                                        <i class="fa fa-angle-right"
-                                            style="position: absolute; bottom: 0; right: 5px; color: #d0202f; font-size: 25px;"></i>
+                                        <i class="fa fa-angle-right"></i>
                                     </a>
-                            
+
                                 </div>
 
 
@@ -266,14 +340,329 @@
 
         </section>
 
-        <section class="Connect">
+        <section class="aluConnect">
 
-            <h1 style="text-align: center; font-size: 25px; padding: 10px;">Connect with ALU</h1>
+            <h1>Connect with ALU</h1>
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-3 col-md-12 col-sm-12 connectPlatformCol">
+
+                        <div class="row no-gutters connectPlatform">
+                            <div class="col-6">
+                                <p>ALU</p>
+                            </div>
+
+                            <div class="col-6">
+                                <i class="fa fa-youtube"></i>
+                            </div>
+
+
+                        </div>
+
+                        <div class="row no-gutters">
+
+                            <div class="embed-responsive embed-responsive-1by1">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HkvoOrTyw48"
+                                    frameborder="0" allow="accelerometer; autoplay; 
+                                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-12 col-sm-12 connectPlatformCol">
+
+                        <div class="row no-gutters connectPlatform">
+
+                            <div class="col-6">
+                                <p>ALU</p>
+                            </div>
+
+                            <div class="col-6">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters ">
+
+                            <blockquote class="twitter-tweet border">
+                                <a
+                                    href="https://twitter.com/alueducation/status/1283405325694054401?ref_src=twsrc%5Etfw">July
+                                    15, 2020</a>
+                                <p style="text-align:left; padding: 4px;" lang="en" dir="ltr">We appreciate and are
+                                    grateful for all our social media
+                                    followers, and because of that we want to give a special mention to <a
+                                        href="https://twitter.com/AlanMain4?ref_src=twsrc%5Etfw">@Alanmain4</a> and <a
+                                        href="https://twitter.com/lastaab?ref_src=twsrc%5Etfw">@lastaab</a> for their
+                                    consistent engagement with our social media posts in the month of June.
+                                </p>&mdash;
+
+                            </blockquote>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-12 col-sm-12 connectPlatformCol">
+
+                        <div class="row no-gutters connectPlatform">
+
+                            <div class="col-6">
+                                <p>ALU</p>
+                            </div>
+
+                            <div class="col-6">
+                                <i class="fa fa-instagram"></i>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="embed-responsive embed-responsive-1by1">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HkvoOrTyw48"
+                                frameborder="0" allow="accelerometer; autoplay; 
+                            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
 
 
         </section>
 
+        <footer>
 
+            <div class="main-container">
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+
+                        <div>
+
+                            <h1>ABOUT ALU</h1>
+                            <p>
+                                ALU aims to develop 3 million ethical and entrepreneurial leaders for Africa and the
+                                world by 2035.
+                                It uses a personalized, student-driven, project-based, and mission-oriented approach to
+                                create agile, lifelong learners who can adapt to a changing world. ALU's first site was
+                                inaugurated in September 2015 in Mauritius.
+                                Its second campus was inaugurated in September 2017 in Kigali Heights, Rwanda.
+                            </p>
+
+
+                        </div>
+
+                        <div>
+                            <h2>Contact Us</h2>
+                        </div>
+
+                        <div id="SMLinks">
+
+                            <h3>SOCIAL MEDIA</h1>
+
+                                <a>
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+
+                                <a>
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+
+                                <a>
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+
+                                <a>
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+
+                        <h1>QUICK LINKS</h1>
+
+                        <ul>
+                            <li>Academics </li>
+                            <li>Admission & Aid</li>
+                            <li>Student Life</li>
+                            <li>About ALU</li>
+                            <li>News</li>
+                            <li>Students</li>
+                            <li>Faculty & Staff</li>
+                            <li>Authors</li>
+                            <li>Questions</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+
+                        <h1>CONTACT</h1>
+
+                        <div class="row location no-gutters">
+
+                            <div class="col-1">
+                                <i class="fa fa-map-marker icon"></i>
+                            </div>
+
+                            <div class="col-11">
+                                <h4>ALC Mauritius
+                                </h4>
+
+                                <p>
+                                    African Leadership Campus,
+                                    Powder Mill Rd,
+                                    Pamplemousses, 21001
+                                    Mauritius
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="row no-gutters">
+
+                            <div class="col-1">
+                                <i class="fa fa-map-marker icon"></i>
+                            </div>
+
+                            <div class="col-11">
+                                <h4> ALU Rwanda
+                                </h4>
+
+                                <p>
+
+                                    Kigali Heights,
+                                    2nd floor,KG 7 Ave,
+                                    Kigali,
+                                    Rwanda
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row no-gutters">
+
+                            <div class="col-1">
+                                <i class="fa fa-question-circle icon"></i>
+                            </div>
+
+                            <div class="col-11">
+
+
+                                <p>
+
+                                    info@alueducation.com
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row no-gutters">
+
+                            <div class="col-1">
+                                <i class="fa fa-microphone icon"></i>
+                            </div>
+
+                            <div class="col-11">
+                                <h4> For all media inquiries:</h4>
+
+                                <p>
+
+
+                                    jolson@alueducation.com
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row no-gutters">
+
+                            <div class="col-1">
+                                <i class="fa fa-phone icon"></i>
+                            </div>
+
+                            <div class="col-11">
+                                <h4>Front desk:</h4>
+
+                                <p>
+                                    Mauritius: +230 54 43 49 51 <br>
+                                    Rwanda: +250 784 650 219
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="row no-gutters">
+
+                            <div class="col-1">
+                                <i class="fa fa-book icon"></i>
+                            </div>
+
+                            <div class="col-11">
+                                <h4>Admissions:</h4>
+
+                                <p>
+                                    admissions@alueducation.com
+                                    +230 5444 7827
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="row no-gutters">
+
+                            <div class="col-1">
+                                <i class="fa fa-star icon"></i>
+                            </div>
+
+                            <div class="col-11">
+                                <h4>Careers:</h4>
+
+                                <p>
+                                    hiring@alueducation.com
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+        
+        <script src='js/main.js'></script>
+        <script src='bootstrap/js/bootstrap.min.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .custom-color{
     background-color: #002e6d;
@@ -38,19 +40,61 @@ ul li a:hover{
     top:50%;
 }
 
-.search{
-    cursor: pointer;
-    color: #d0202f;
-
-
-}
+ 
 
 .fa-search{
     position: relative;
     top:10px;
+    cursor: pointer;
+    color: #d0202f;
     left: 35px;
     transform: rotate(90deg);
 }
+
+.togglesearch{
+    background: #E8E8E4;
+    position: absolute;
+    top: 94px;
+    right: 21.5%;
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-top:4px solid #D80B15;
+    display: none;
+  }
+  .togglesearch:before{
+    content: "";
+    position: absolute;
+    top: -32px;
+    right: 13px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid #D80B15;
+  }
+   
+  .togglesearch input[type="text"]{
+    width: 200px;
+    padding: 5px 10px;
+    margin-left: 23px;
+    border: 1px solid #D80B15;
+    outline: none;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+   
+  .togglesearch input[type="button"]{
+    width: 80px;
+    background: #D80B15;
+    color: #fff;
+    margin-left: -6px;
+    border: 1px solid #D80B15;
+    outline: none;
+    cursor: pointer;
+    height: 60px;
+  }
 
 @media only screen and (max-width: 996px) {
 
@@ -93,6 +137,277 @@ ul li a:hover{
       padding-bottom: 30px;
     background-color: #e8e8e8a6; 
 }
+
+.aluNews h1, .aluConnect h1{
+    text-align: center;
+     font-size: 25px; 
+     padding: 10px;
+}
+
+.newsCol{
+    padding-top: 8px;
+     position: relative;
+}
+
+.newsInfo{
+    background-color: #002e6d;
+     padding: 7px;
+     color: white;
+      text-align: center;
+}
+
+
+.newsInfo p{
+    text-align:left;
+    padding: 6px;
+}
+
+.newsInfo .fa{
+    position: absolute;
+     bottom: 0; 
+     right: 5px; 
+     color: #d0202f; 
+     font-size: 25px;
+}
+
+ 
+.aluConnect .col-md-12{
+    padding-bottom: 50px;
+}
+
+.connectPlatformCol{
+    position: relative;
+}
+.connectPlatform{
+    background-color: #002e6d; 
+    color: white; 
+    font-size: 25px;
+}
+
+.connectPlatform p{
+    position: relative;
+     top:10px;
+      left: 5px;
+}
+
+
+.connectPlatform .fa{
+    position: absolute; 
+    top: 15px; 
+    right: 5px; 
+    font-size: 30px
+}
+
+blockquote{
+    text-align: center; 
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #002e6d;
+    padding: 40px;
+    color: white;
+}
+
+footer h1{
+    font-size: 15px;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    width: 40%;
+    text-align: center;
+   
+
+}
+
+footer h2{
+    font-size: 15px;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+   
+
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight:bold;
+    width: 20%;
+    padding-top:30px;
+    color: #d0202f;
+    text-align: center;
+   
+
+}
+
+footer h4{
+    font-size: 18px;
+    font-size: bold;
+}
+
+footer #SMLinks a{
+
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+
+footer ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+footer .icon{
+   
+    color: #d0202f;
+
+}
+
+footer .location{
+     
+    padding-top:5px;
+}
+
+
+.overlay{
+    position: relative; 
+    opacity: 0.8;
+}
+
+.overlay:hover, .overlayImg:hover {
+    background-color: #f59342;
+    opacity: 0.6;
+
+}
+
+.overlayP{
+
+    position: absolute; 
+    top: 40%; 
+    left: 35%;
+    background-color: #f5a742;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.overlay1{
+    position: relative; 
+    opacity: 0.8;
+}
+ 
+.overlay1:hover, .overlayImg1:hover {
+    background-color: #003366;
+    opacity: 0.6;
+
+}
+
+ 
+.overlayP1{
+    background-color: #003366;
+    position: absolute; 
+    top: 40%; 
+    left: 40%;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+ 
+.overlay2{
+    position: relative; 
+    background-color: black;
+    opacity: 0.8;
+}
+ 
+.overlay2:hover, .overlayImg2:hover {
+    background-color: #006442;
+    opacity: 0.6;
+
+}
+
+.overlayP2{
+    background-color: #006442;
+    position: absolute; 
+    top: 50%; 
+    left: 40%;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.overlay3{
+    position: relative; 
+    opacity: 0.8;
+}
+ 
+ 
+.overlay3:hover, .overlayImg3:hover {
+    background-color: #f0cd0a;
+    opacity: 0.6;
+
+}
+
+ 
+.overlayP3{
+    background-color: #f0cd0a;
+    position: absolute; 
+    top: 50%; 
+    left: 20%;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.overlay4{
+    position: relative; 
+    opacity: 0.8;
+}
+ 
+ 
+.overlay4:hover, .overlayImg4:hover {
+    background-color: #d0202f;
+    opacity: 0.6;
+
+}
+
+ 
+.overlayP4{
+    background-color: #d0202f;
+    position: absolute; 
+    top: 50%; 
+    left: 20%;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+
+.footer .col-md-12{
+    padding-bottom: 30px;
+}
+
+
+
 
 
 
