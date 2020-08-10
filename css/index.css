@@ -200,7 +200,7 @@ ul li a:hover{
 
 blockquote{
     text-align: center; 
-    padding-bottom: 15px;
+   
 }
 
 footer{
@@ -236,10 +236,8 @@ footer h2{
 footer h3{
     font-size: 20px;
     font-weight:bold;
-    width: 20%;
     padding-top:30px;
     color: #d0202f;
-    text-align: center;
    
 
 }
