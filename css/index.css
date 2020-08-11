@@ -182,7 +182,7 @@ ul li a:hover{
      font-size: 25px;
 }
 
-.newsInfo button{
+.newsInfo .button{
     background-color: #d0202f; 
     color: white;
      border-radius: 10px;
@@ -306,7 +306,7 @@ footer .location{
 }
 
 
-.overlayImg{
+.overlayImg0{
     opacity: 0.6;
 }
 
