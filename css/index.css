@@ -33,6 +33,7 @@ ul li a:hover{
 
      border-top: 5px solid #d0202f ;
 }
+ 
 
 .dropdown-toggle::after {
     color: #d0202f;
@@ -143,7 +144,8 @@ ul li a:hover{
 
 .aluNews h1, .aluConnect h1{
     text-align: center;
-     font-size: 25px; 
+    font-size: 35px;
+    font-weight: bold; 
      padding: 10px;
 }
 
@@ -159,10 +161,17 @@ ul li a:hover{
       text-align: center;
 }
 
+.newsInfo img{
+
+    height: 100px;
+}
+
+
 
 .newsInfo p{
-    text-align:left;
-    padding: 6px;
+    text-align:center;
+    padding: 2px;
+    word-wrap: break-word;
 }
 
 .newsInfo .fa{
@@ -171,6 +180,12 @@ ul li a:hover{
      right: 5px; 
      color: #d0202f; 
      font-size: 25px;
+}
+
+.newsInfo button{
+    background-color: #d0202f; 
+    color: white;
+     border-radius: 10px;
 }
 
  
@@ -209,8 +224,10 @@ blockquote{
 
 blockquote p{
     text-align: left;
-    padding: 2px; 
-    height: 190px;
+    padding-bottom: 19.5px;
+    padding-left: 4px;
+    word-wrap: break-word;
+
    
 }
 
@@ -282,6 +299,33 @@ footer .location{
     padding-top:5px;
 }
 
+.overlay0{
+    position: relative;
+     background-color: black; 
+     opacity: 0.8;
+}
+
+
+.overlayImg{
+    opacity: 0.6;
+}
+
+.overlay0 .content{
+    position: absolute;
+     top: 25%; 
+     word-wrap: break-word;
+     text-align: left;
+     padding-left: 35px;
+     color: white;
+    font-size: 20px;
+}
+
+
+.overlay0 .content h1{
+   color: #d0202f;
+   text-align: center;
+}
+
 
 .overlay{
     position: relative; 
@@ -349,7 +393,7 @@ footer .location{
     background-color: #006442;
     position: absolute; 
     top: 50%; 
-    left: 40%;
+    left: 35%;
     cursor: pointer;
     padding: 10px;
     color: white;
