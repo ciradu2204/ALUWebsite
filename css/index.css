@@ -183,9 +183,9 @@ ul li a:hover{
 }
 
 .newsInfo .button{
-    background-color: #d0202f; 
-    color: white;
-    border-radius: 10px;
+    background-color: #d0202f !important;
+    color: white !important;
+    border-radius: 10px !important;
 }
 
  
