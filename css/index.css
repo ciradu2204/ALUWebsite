@@ -182,10 +182,10 @@ nav ul li a:hover{
      font-size: 25px;
 }
 
-.newsInfo button{
-    background-color: #d0202f; 
-    color: white;
-     border-radius: 10px;
+.newsInfo .button{
+    background-color: #d0202f !important;
+    color: white !important;
+    border-radius: 10px !important;
 }
 
  
