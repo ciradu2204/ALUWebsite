@@ -7,9 +7,4 @@ $(document).ready(function() {
  
 });
 
-$(".navbar .prevent,.title a, footer a[href='#myPage']").on('click', function(event) {
-
-	// Prevent default anchor click behavior
-	event.preventDefault();
-
-});
+ 
