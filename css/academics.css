@@ -1,0 +1,194 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.sbar {
+    font-size: small;
+    background-color: #002e6d;
+    padding: 5px;
+    align-self:120px;
+  } 
+ 
+  .sbar a{
+    display: block;
+    color: white;
+    text-decoration: white;
+  }
+ 
+ .sp{
+  position: relative;
+  left: 20px;
+} 
+
+
+  .gen a{
+    color: black;
+    text-decoration: black;
+  }
+
+ 
+.overlayA{
+  background-color:#fcb603;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayA p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 15%;
+  font-weight: bold;
+
+}
+
+.overlayA img{
+
+ opacity: 0.4;
+}
+
+.overlayB{
+  background-color:#fcfc03;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayB p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 15%;
+  font-weight: bold;
+
+}
+
+.overlayB img{
+
+ opacity: 0.4;
+}
+
+.overlayC{
+  background-color:#cf7e06;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayC p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 15%;
+
+}
+
+.overlayC img{
+
+ opacity: 0.4;
+}
+
+.overlayD{
+  background-color:#002e6d;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayD p{
+  position: absolute;
+  color:white;
+  top:30%;
+  left: 10px;
+
+}
+
+.overlayD img{
+
+ opacity: 0.4;
+}
+
+.overlayE{
+  background-color:#D80B15;;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayE p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 30%;
+
+}
+
+.overlayE img{
+
+ opacity: 0.4;
+}
+
+.overlayF{
+  background-color:#06cf3f;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayF p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 20%;
+
+}
+
+.overlayF img{
+
+ opacity: 0.4;
+}
+
+.row{
+  position: relative;
+}
+
+.col-lg-12 .h4{
+  margin-top:0;
+}
+
+button a{
+  background-color: #d0202f !important; 
+  color: white !important;
+  padding: 10px;
+  text-decoration-style: none !important;
+   border-radius: 10px !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.give{
+  background-color: #d0202f !important; 
+  color: white !important;
+  width: 150px !important;
+  position: relative;
+  left: 0;
+  text-decoration-style: none !important;
+   border-radius: 10px !important;
+
+}
+h5{
+  color: #d0202f;
+  font-weight: bold;
+}
+
+h6{
+  text-align: center;
+  color: #002e6d;
+  font-weight: bold;
+  padding: 5px;
+}
+
+ 
+
+
+
+ 

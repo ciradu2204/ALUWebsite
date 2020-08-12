@@ -8,24 +8,24 @@ body{
     
 }
 
-ul li{
+nav ul li{
     color:white;
 }
 
-ul li a{
+nav ul li a{
     color: white;
     padding-left: 30px !important;
 }
 
-ul li a:hover{
+nav ul li a:hover{
     color: #d0202f !important;
 }
 
 .img-size{
     width: 100%;
     position: relative;
-    left: 15%;
-    max-width: 100px;
+    left: 200px;
+    max-width: 150px;
     height: auto;
 }
 
@@ -114,7 +114,7 @@ ul li a:hover{
         margin-left: 0 !important;
     }
 
-    ul li a{
+    nav ul li a{
         color: white;
         padding-left: 0 !important;
     }
@@ -306,7 +306,7 @@ footer .location{
 }
 
 
-.overlayImg{
+.overlayImg0{
     opacity: 0.6;
 }
 
@@ -325,7 +325,7 @@ footer .location{
    color: #d0202f;
    text-align: center;
 }
-
+ 
 
 .overlay{
     position: relative; 
