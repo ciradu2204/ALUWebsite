@@ -138,10 +138,13 @@ nav ul li a:hover{
         max-width: 100% !important;
         margin-left: 0!important;
         margin-right: 0!important;
+        padding-top: 0!important;
     }
+
+
 }
 
-  .container{
+   #myContainer{
       padding-top: 30px;
   }
 
@@ -629,9 +632,10 @@ footer h3{
 
 }
 
-footer h4{
+footer h4, footer p{
     font-size: 18px;
     font-size: bold;
+    color: white;
 }
 
 footer #SMLinks a{
