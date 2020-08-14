@@ -31,10 +31,41 @@ nav ul li a:hover{
 
 .nav-item .dropdown-menu{
 
-     border-top: 5px solid #d0202f ;
+     border-top: 5px solid #db2231 ;
 }
- 
 
+
+.navbar-light .navbar-toggler{
+    background: white !important;
+   
+} 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(208, 32, 47)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+  .custom-toggler.navbar-toggler:hover, .custom-toggler.navbar-toggler:focus {
+    border-color: #db2231 !important;
+  }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+ }
+.icon-bar{
+    color:#d0202f !important;
+}
+
+.navbar-light {
+
+    color: #d0202f !important; 
+
+}
+
+ 
 .dropdown-toggle::after {
     color: #d0202f;
     position: absolute;
@@ -53,6 +84,7 @@ nav ul li a:hover{
     left: 35px;
     transform: rotate(90deg);
 }
+
 
 .togglesearch{
     background: #E8E8E4;
@@ -88,7 +120,11 @@ nav ul li a:hover{
     align-items: center;
     margin-bottom: 20px;
   }
-   
+  .carousel-inner>.item {
+    -webkit-transition: -webkit-transform 0.2s ease-in-out !important;
+    -o-transition: -o-transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out !important;
+}
   .togglesearch input[type="button"]{
     width: 80px;
     background: #D80B15;
@@ -138,19 +174,32 @@ nav ul li a:hover{
         max-width: 100% !important;
         margin-left: 0!important;
         margin-right: 0!important;
-        padding-top: 0!important;
+    }
+
+    .news{
+        max-width: 100% !important;
+        margin-left: 0!important;
+        margin-right: 0!important;
     }
 
 
 }
-
-   #myContainer{
+.container{
       padding-top: 30px;
+  }
+
+  #myContainer a{
+      list-style-type: none;
+      color: white;
   }
 
   .homeContainer{
       padding-bottom: 30px;
     background-color: #e8e8e8a6; 
+}
+
+.aluConnect a{
+    color: white;
 }
 
 .aluNews h1, .aluConnect h1{
@@ -579,20 +628,41 @@ h6{
   font-weight: bold;
   padding: 5px;
 }
- 
 
-
-   #map {
-        height: 400px; /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
+#map {
+        height: 400px;  
+        width: 100%;  
  }
 
- .i-am-centered{
-     margin: auto;
-     max-height: 600px;
+ .news h4{
+     
+     color: #d0202f ;
+     padding-bottom: 15px; 
+      border-bottom-style: solid; 
+    border-bottom-width: 3.1px; 
+    width: fit-content; 
+ }
+ .form-group:active, .form-group:focus {
+    outline: none;
+    box-shadow: none;
+ }
+  input:active, .news form input:focus{
+    outline: none;
+    box-shadow: none;
+ }
+ .banner0{
+     background-color: rgb(208, 1, 29);
+     height: 225px;
+     position: relative;
+     top:50%;
  }
 
- 
+ .banner0 h1{
+
+    position: relative;
+    top:30%;
+
+ }
 footer{
     background-color: #002e6d;
     padding: 40px;
@@ -643,6 +713,16 @@ footer #SMLinks a{
     padding: 10px;
     font-size: 20px;
    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 

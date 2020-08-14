@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>News</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="../img/logo1.v1 (2).png">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-grid.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-grid.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-reboot.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-reboot.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../css/index.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <nav class="navbar navbar-expand-lg navbar-light custom-color">
+            <a href="../index.html">
+                <img src="../img/alu_logo_original.png" alt="ALU Logo" class="img-size">
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-column " id="navbar">
+                <ul class="navbar-nav w-100 justify-content-center spacing">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="./students.html">Students<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./parents.html">Parents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./faculty&staff.html">Faculty & Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./aluminae.html">Alumnae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./news.html">News</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="./academics.html" id="navbarDropdown"
+                            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Academics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item stretched-link" href="./academics.html">ALU Advantage</a>
+                            <a class="dropdown-item" href="./academics.html">Undergraduate Programme</a>
+                            <a class="dropdown-item" href="./academics.html">ALU Difference</a>
+                            <a class="dropdown-item" href="./academics.html">BSc(Hons) Computing Degree</a>
+                            <a class="dropdown-item" href="./academics.html">Academic Calendar</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="./admission&aid.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Admission & Aid
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./admission&aid.html">Undergraduate admission</a>
+                            <a class="dropdown-item" href="./admission&aid.html">Start application</a>
+                            <a class="dropdown-item" href="./admission&aid.html">PostGraduate MBA</a>
+                            <a class="dropdown-item" href="./admission&aid.html">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="./studentLife.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Student Life
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./studentLife.html">Living at ALU</a>
+                            <a class="dropdown-item" href="./studentLife.html">Campus Life</a>
+                            <a class="dropdown-item" href="./studentLife.html">Student Organisation</a>
+                            <a class="dropdown-item" href="./studentLife.html">Student Handbook</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="./about.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About ALU
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="./about.html">Our approach</a>
+                            <a class="dropdown-item" href="./about.html">Our learning model </a>
+                            <a class="dropdown-item" href="./about.html">Our leadership</a>
+                            <a class="dropdown-item" href="./about.html">The ALU Impact report</a>
+                            <a class="dropdown-item" href="./about.html">Faculty academic leadership</a>
+                            <a class="dropdown-item" href="./about.html">Our founding academic partner</a>
+                            <a class="dropdown-item" href="./about.html">Our policies</a>
+                        </div>
+                    </li>
+                    <li>
+                        <form>
+                            <!-- <input type="text" placeholder="Search..."> -->
+                            <div class="searchbar">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <div class="togglesearch">
+                                    <input type="text" placeholder="" />
+                                    <input type="button" onClick="refreshPage()" value="Search" />
+                                    <script>
+                                        function refreshPage() {
+                                            window.location.reload();
+                                        } 
+                                    </script>
+                                </div>
+                        </form>
+
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </nav>
+    </div>
+
+    <div class="banner0">
+        <h1 style="text-align: center; color: white;">News</h1>
+    </div>
+
+    <div class="container news">
+        <div class="row">
+
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <h4>Latest News</h4>
+                <img src="../img/Jack-Ma-foundation.png" alt="GlobalChallenge" class="img-fluid">
+                <p style="padding: 5px;">Since its founding, ALU has shown great commitment to fulfilling the mission of
+                    educating 3 million leaders by 2030. Our disruptive learning model, access to networks, as well as
+                    our strong values have continuously moulded our students into innovative leaders who are determined
+                    to create a positive impact on the African continent.</p>
+                <button type="button" class="btn
+                    ">
+                    <a target="_blank" href="https://www.alueducation.com/africa-netpreneur-prize-initiative/">Read More</a></button>
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <h4>Covid19: President Message</h4>
+
+                <p>Dear ALU Community:<br /><br />
+
+                    Our university’s moonshot vision has always been to expand the canvas of Africa’s potential and
+                    paint her future with three
+                    million hands by 2035.
+                    This vision was strengthened this week as every individual in our community broadened their own
+                    canvas, with new colors obtained from an environment rich with diversity.<br /><br />
+                    As President, I got to watch this blossoming of color with awe and humility. Of you all, and of this
+                    university we call home, I am proud. For you all, I am also thankful.
+                    Stay safe and stay connected. We will be together again soon. And we will be stronger. <br /><br />
+
+                </p>
+                <button type="button" class="btn
+                ">
+                    <a
+                        href="https://www.alueducation.com/message-from-the-alu-president-updates-reflections-and-gratitude/">Read
+                        More</a></button>
+
+            </div>
+
+
+
+
+
+        </div>
+        &nbsp;
+        <div class="row">
+
+            <div class="col-sm-8 col-md-8 col-lg-8">
+
+                <h4> News</h4>
+                <div class="row">
+
+                    <div class="col-md-4 col-lg-4 col-sm-4">
+
+                        <img src="../img/news.png" alt="news" class="img-fluid">
+                        <div style="background-color: #002e6d; color: white; padding: 10px;">
+                            <p>At ALU, we take our sense of community very seriously, especially during uncertain times
+                                like these.</p>
+                            <div style="text-align: center;">
+                                <button type="button" class="btn">
+                                    <a target="_blank" href="https://www.alueducation.com/staying-apart-is-keeping-us-together/">Read
+                                        More</a>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-lg-4 col-sm-4">
+
+                        <img src="../img/GlobalChallenge.jpg" alt="news" class="img-fluid">
+                        <div style="background-color: #002e6d; color: white; padding: 10px;">
+                            <p>The ALU Global Challenges Degree Program has seen numerous exciting and impactful
+                                projects.</p>
+                            <div style="text-align: center;">
+                                <button type="button" class="btn">
+                                    <a target="_blank"
+                                        href="https://www.alueducation.com/alu-global-focus-insights-on-africas-greatest-challenges-and-opportunities/">Read
+                                        More</a>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-lg-4 col-sm-4">
+
+                        <img src="../img/news.jpeg" alt="news" class="img-fluid">
+                        <div style="background-color: #002e6d; color: white; padding: 10px;">
+                            <p>Nnadozie Ebere has shared his experiences that he has gathered
+                                throughout his journey at ALU.</p>
+                            <div style="text-align: center;">
+                                <button type="button" class="btn">
+                                    <a target="_blank" href="https://www.alueducation.com/the-alu-experience-a-perspective/">Read
+                                        More</a>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                &nbsp;
+                <div class="row">
+
+                    <div class="col-md-4 col-lg-4 col-sm-4">
+
+                        <img src="../img/studyTips.png" alt="news" class="img-fluid ">
+
+                        <div style="background-color: #002e6d; color: white; padding: 10px;">
+                            <p>Hope Mutua gives us some studying at home tips, as she speaks about how to remain
+                                productive in Corona.</p>
+                            <div style="text-align: center;">
+                                <button type="button" class="btn">
+                                    <a target="_blank" href="https://www.alueducation.com/top-10-tips-for-studying-at-home/">Read
+                                        More</a>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-lg-4 col-sm-4">
+
+                        <img src="../img/sisekelo.PNG" alt="news" class="img-fluid">
+                        <div style="background-color: #002e6d; color: white; padding: 10px;">
+                            <p>What would you do if your biggest venture became your greatest failure? Would you start again? </p>
+                            <div style="text-align: center;">
+                                <button type="button" class="btn">
+                                    <a target="_blank" href="https://www.alueducation.com/sisekelo-dlamini-the-art-of-failing/">Read More</a>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-lg-4 col-sm-4">
+
+                        <img src="../img/alibaba.PNG" alt="news" class="img-fluid">
+                        <div style="background-color: #002e6d; color: white; padding: 10px;">
+                            <div>
+                                <p>In 2020, we have all witnessed a disruption to daily life due to the spread of the covid19 across the world.</p>
+                                <button type="button" class="btn">
+                                    <a target="_blank" href="https://www.alueducation.com/the-alibaba-get-challenge-2020/">Read More</a>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <a>
+                   
+                    </a>
+
+                    <a>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+                <h4> Subscribe to our NewsLetter</h4>
+                <form>
+                    <div class="form-group row">
+                        <label for="colFormLabelSm" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" id="colFormLabelSm"
+                                placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelSm" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <button type="submit" class="btn">
+                            <a> Subscribe</a>
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    &nbsp;
+
+    <section>
+        <div id="disqus_thread"></div>
+    </section>
+
+
+    <!-- <footer>
+
+        <div class="main-container">
+
+            <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-lg-6">
+
+                    <div>
+
+                        <h1>ABOUT ALU</h1>
+                        <p>
+                            ALU aims to develop 3 million ethical and entrepreneurial leaders for Africa and the
+                            world by 2035.
+                            It uses a personalized, student-driven, project-based, and mission-oriented approach to
+                            create agile, lifelong learners who can adapt to a changing world. ALU's first site was
+                            inaugurated in September 2015 in Mauritius.
+                            Its second campus was inaugurated in September 2017 in Kigali Heights, Rwanda.
+                        </p>
+
+
+                    </div>
+
+                    <div>
+                        <h2>Contact Us</h2>
+                    </div>
+
+                    <div id="SMLinks">
+
+                        <h3>SOCIAL MEDIA</h1>
+
+                            <a>
+                                <i class="fa fa-youtube"></i>
+                            </a>
+
+                            <a>
+                                <i class="fa fa-twitter"></i>
+                            </a>
+
+                            <a>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+
+                            <a>
+                                <i class="fa fa-facebook"></i>
+                            </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <h1>QUICK LINKS</h1>
+
+                    <ul>
+                        <li><a href="../html/academics.html">Academics </a></li>
+                        <li><a href="../html/admission&aid.html">Admission & Aid</a></li>
+                        <li><a href="../html/studentLife.html">Student Life</a></li>
+                        <li><a href="../html/about.html"> About ALU</a></li>
+                        <li><a href="../html/news.html">News</a></li>
+                        <li><a href="../html/students.html">Students</a></li>
+                        <li><a href="../html/faculty&staff.html">Faculty & Staff</a></li>
+                        <li><a href="../html/aluminae.html">Aluminae</a></li>
+                        <li><a href="../html/authors.html">Authors</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <h1>CONTACT</h1>
+
+                    <div class="row location no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-map-marker icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>ALC Mauritius
+                            </h4>
+
+                            <p>
+                                African Leadership Campus,
+                                Powder Mill Rd,
+                                Pamplemousses, 21001
+                                Mauritius
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-map-marker icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4> ALU Rwanda
+                            </h4>
+
+                            <p>
+
+                                Kigali Heights,
+                                2nd floor,KG 7 Ave,
+                                Kigali,
+                                Rwanda
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-question-circle icon"></i>
+                        </div>
+
+                        <div class="col-11">
+
+
+                            <p>
+
+                                info@alueducation.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-microphone icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4> For all media inquiries:</h4>
+
+                            <p>
+
+
+                                jolson@alueducation.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-phone icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>Front desk:</h4>
+
+                            <p>
+                                Mauritius: +230 54 43 49 51 <br>
+                                Rwanda: +250 784 650 219
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-book icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>Admissions:</h4>
+
+                            <p>
+                                admissions@alueducation.com
+                                +230 5444 7827
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-star icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>Careers:</h4>
+
+                            <p>
+                                hiring@alueducation.com
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer> -->
+    <script>
+        var disqus_config = function () {
+            var s = "https://ciradu2204.github.io/ALUWebsite/";
+            var y = "BlueTeam"
+            this.page.url = s;
+            this.page.identifier = y; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://alu-website.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src='../js/main.js'></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

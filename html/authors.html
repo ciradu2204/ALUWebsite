@@ -24,7 +24,7 @@
             <a href="../index.html">
                 <img src="../img/alu_logo_original.png" alt="ALU Logo" class="img-size">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse flex-column " id="navbar">
@@ -40,7 +40,7 @@
                         <a class="nav-link text-white" href="./faculty&staff.html">Faculty & Staff</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="./aluminae.html">Aluminae</a>
+                        <a class="nav-link text-white" href="./aluminae.html">Alumnae</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="./news.html">News</a>
@@ -49,19 +49,21 @@
 
                 <ul class="navbar-nav justify-content-center">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="./html/Academics.html" id="navbarDropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white" href="./academics.html" id="navbarDropdown"
+                        data-toggle="dropdown" role="button"  aria-haspopup="true" aria-expanded="false">
                             Academics
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item stretched-link" href="./academics.html">ALU Advantage</a>
                             <a class="dropdown-item" href="./academics.html">Undergraduate Programme</a>
                             <a class="dropdown-item" href="./academics.html">ALU Difference</a>
+                            <a class="dropdown-item"href="./academics.html">BSc(Hons) Computing Degree</a>
+                            <a class="dropdown-item" href="./academics.html">Academic Calendar</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white" href="./admission&aid.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown"   aria-haspopup="true" aria-expanded="false">
                             Admission & Aid
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -72,8 +74,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white" href="./studentLife.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
                             Student Life
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -84,8 +86,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white" href="./about.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
                             About ALU
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -179,17 +181,16 @@
                             <img src="../img/celine.jpeg" src="Celine" class="img-fluid rounded-circle"
                                 style="max-height: 300px;">
                             <h4 style="color: #d0202f; font-weight: bold;">Celine Ishimwe</h4>
-                            <p>Cynthia is an inspiring software engineer who is passionate about improving education in
-                                Africa through
-                                mentorship and building mobile & web applications. She is currently going in her third
-                                year of university.</p>
+                            <p>I am an audacious, creative, 
+                                and self-driven woman whose passion lies in
+                                 the development of software and mobile application. Furthermore, I want to be a role model and inspire young girls who enjoy science and want to build and expand their knowledge.</p>
                         </div>
 
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div style="text-align: center;">
-                            <img src="../img/Nekesa.png" src="Nekesa" class="img-fluid rounded-circle"
+                            <img src="../img/martha.jpeg" src="Nekesa" class="img-fluid rounded-circle"
                                 style="max-height: 300px;">
                             <h4 style="color: #d0202f; font-weight: bold;">Nekesa Martha</h4>
                             <p>Nekesa is a third year Computer Science student who is passionate about Data Science and
@@ -247,19 +248,19 @@
 
                         <h3>SOCIAL MEDIA</h1>
 
-                            <a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UChgb00MsGJt8-Dnjz8IUC6w">
                                 <i class="fa fa-youtube"></i>
                             </a>
 
-                            <a>
+                            <a target="_blank" href="https://twitter.com/alueducation">
                                 <i class="fa fa-twitter"></i>
                             </a>
 
-                            <a>
+                            <a target="_blank" href="https://www.instagram.com/accounts/login/?next=/alueducation/">
                                 <i class="fa fa-instagram"></i>
                             </a>
 
-                            <a>
+                            <a target="_blank" href="https://www.facebook.com/alu.education">
                                 <i class="fa fa-facebook"></i>
                             </a>
 
@@ -438,80 +439,7 @@
         </div>
 
     </footer>
-
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            // The location of Uluru
-            var Rwanda = { lat: -1.9403, lng: 29.8739 };
-            var Kenya = { lat: -0.0236, lng: 37.9062 };
-            var Nigeria = { lat: 9.0820, lng: 8.6753 };
-            var icon1 = {
-                url: '../img/celine.jpeg', // url
-                scaledSize: new google.maps.Size(50, 50), // scaled size
-                origin: new google.maps.Point(0, 0), // origin
-                anchor: new google.maps.Point(30, 30)
-            }
-            var icon2 = {
-                url: '../img/cynthia.jpg', // url
-                scaledSize: new google.maps.Size(50, 50), // scaled size
-                origin: new google.maps.Point(0, 0), // origin
-                anchor: new google.maps.Point(0, 0)
-            }
-
-            var icon3 = {
-                url: '../img/ibitope.jpeg', // url
-                scaledSize: new google.maps.Size(50, 50), // scaled size
-                origin: new google.maps.Point(0, 0), // origin
-                anchor: new google.maps.Point(0, 0)
-            }
-            var icon4 = {
-                url: '../img/Nekesa.png', // url
-                scaledSize: new google.maps.Size(50, 50), // scaled size
-                origin: new google.maps.Point(0, 0), // origin
-                anchor: new google.maps.Point(0, 0)
-            }
-
-
-            var mapOptions = {
-                zoom: 4,
-                center: Rwanda,
-                zoom: 4,
-                center: Kenya,
-                zoom: 4,
-                center: Nigeria
-            }
-            // The map, centered at Uluru
-            var map = new google.maps.Map(
-                document.getElementById('map'), mapOptions);
-            var marker = new google.maps.Marker({
-                title: "Rwanda",
-                position: Rwanda,
-                icon: icon1
-            });
-            var marker2 = new google.maps.Marker({
-                position: Kenya,
-                title: "Kenya",
-                icon: icon4
-            });
-            var marker3 = new google.maps.Marker({
-                position: Nigeria,
-                title: "Nigeria",
-                icon: icon3
-            });
-            var marker4 = new google.maps.Marker({
-                title: "Rwanda",
-              position: Rwanda,
-              icon: icon2
-          });
-            marker.setMap(map);
-            marker2.setMap(map);
-            marker3.setMap(map);
-            marker4.setMap(map);
-
-        }
-
-    </script>
+ 
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs0x4lN8zA_qm2--H_U82_LBJ2ZPv2FAg&callback=initMap">
         </script>
