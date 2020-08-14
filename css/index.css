@@ -24,7 +24,7 @@ nav ul li a:hover{
 .img-size{
     width: 100%;
     position: relative;
-    left: 200px;
+    left: 230px;
     max-width: 150px;
     height: auto;
 }
@@ -132,12 +132,20 @@ nav ul li a:hover{
         transform: rotate(90deg);
     }
   }
+  
+  @media (max-width: 992px) {
+    #myContainer {
+        max-width: 100% !important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+}
 
   .container{
       padding-top: 30px;
   }
 
-  .mainContent{
+  .homeContainer{
       padding-bottom: 30px;
     background-color: #e8e8e8a6; 
 }
@@ -231,73 +239,6 @@ blockquote p{
    
 }
 
-footer{
-    background-color: #002e6d;
-    padding: 40px;
-    color: white;
-}
-
-footer h1{
-    font-size: 15px;
-    padding: 10px;
-    background-color: white;
-    font-weight: bold;
-    color: black;
-    width: 40%;
-    text-align: center;
-   
-
-}
-
-footer h2{
-    font-size: 15px;
-    background-color: white;
-    color:black;
-    padding: 10px;
-    font-weight: bold;
-    width: 15%;
-    text-align: center;
-   
-
-}
-
-footer h3{
-    font-size: 20px;
-    font-weight:bold;
-    padding-top:30px;
-    color: #d0202f;
-   
-
-}
-
-footer h4{
-    font-size: 18px;
-    font-size: bold;
-}
-
-footer #SMLinks a{
-
-    padding: 10px;
-    font-size: 20px;
-   
-}
-
-
-footer ul li{
-    list-style: none;
-    padding: 5px;
-}
-
-footer .icon{
-   
-    color: #d0202f;
-
-}
-
-footer .location{
-     
-    padding-top:5px;
-}
 
 .overlay0{
     position: relative;
@@ -453,13 +394,283 @@ footer .location{
     font-weight: bold;
 
 }
+.sbar {
+    font-size: small;
+    background-color: #002e6d;
+    padding: 5px;
+    align-self:120px;
+  } 
+ 
+  .sbar a{
+    display: block;
+    color: white;
+    text-decoration: white;
+  }
+ 
+ .sp{
+  position: relative;
+  left: 20px;
+} 
 
+
+  .gen a{
+    color: black;
+    text-decoration: black;
+  }
+
+ 
+.overlayA{
+  background-color:#fcb603;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayA p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 15%;
+  font-weight: bold;
+
+}
+
+.overlayA img{
+
+ opacity: 0.4;
+}
+
+.overlayB{
+  background-color:#fcfc03;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayB p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 15%;
+  font-weight: bold;
+
+}
+
+.overlayB img{
+
+ opacity: 0.4;
+}
+
+.overlayC{
+  background-color:#cf7e06;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayC p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 15%;
+
+}
+
+.overlayC img{
+
+ opacity: 0.4;
+}
+
+.overlayD{
+  background-color:#002e6d;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayD p{
+  position: absolute;
+  color:white;
+  top:30%;
+  left: 10px;
+
+}
+
+.overlayD img{
+
+ opacity: 0.4;
+}
+
+.overlayE{
+  background-color:#D80B15;;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayE p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 30%;
+
+}
+
+.overlayE img{
+
+ opacity: 0.4;
+}
+
+.overlayF{
+  background-color:#06cf3f;
+  opacity: 0.8;
+  position: relative;
+}
+
+.overlayF p{
+  position: absolute;
+  color:white;
+  top:45%;
+  left: 20%;
+
+}
+
+.overlayF img{
+
+ opacity: 0.4;
+}
+
+.row{
+  position: relative;
+}
+
+.col-lg-12 .h4{
+  margin-top:0;
+}
+
+button a{
+  background-color: #d0202f !important; 
+  color: white !important;
+  padding: 10px;
+  text-decoration-style: none !important;
+   border-radius: 10px !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.give{
+  background-color: #d0202f !important; 
+  color: white !important;
+  width: 150px !important;
+  position: relative;
+  left: 0;
+  text-decoration-style: none !important;
+   border-radius: 10px !important;
+
+}
+h5{
+  color: #d0202f;
+  font-weight: bold;
+}
+
+h6{
+  text-align: center;
+  color: #002e6d;
+  font-weight: bold;
+  padding: 5px;
+}
+ 
+
+
+   #map {
+        height: 400px; /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+ }
+
+ .i-am-centered{
+     margin: auto;
+     max-height: 600px;
+ }
+
+ 
+footer{
+    background-color: #002e6d;
+    padding: 40px;
+    color: white;
+}
+
+footer h1{
+    font-size: 15px;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    width: 40%;
+    text-align: center;
+   
+
+}
+
+footer h2{
+    font-size: 15px;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+   
+
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight:bold;
+    padding-top:30px;
+    color: #d0202f;
+   
+
+}
+
+footer h4{
+    font-size: 18px;
+    font-size: bold;
+}
+
+footer #SMLinks a{
+
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+
+footer ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+footer .icon{
+   
+    color: #d0202f;
+
+}
+
+footer .location{
+     
+    padding-top:5px;
+}
 
 .footer .col-md-12{
     padding-bottom: 30px;
 }
 
+footer ul li a{
+    color: white ;
+    list-style-type: none;
+}
 
+footer ul li a:hover{
+    color: white ;
+    list-style-type: none;
+}
 
 
 

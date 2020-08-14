@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Students</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="../img/logo1.v1 (2).png">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-grid.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-grid.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-reboot.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap-reboot.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../css/index.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <nav class="navbar navbar-expand-lg navbar-light custom-color">
+            <a href="../index.html">
+                <img src="../img/alu_logo_original.png" alt="ALU Logo" class="img-size">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-column " id="navbar">
+                <ul class="navbar-nav w-100 justify-content-center spacing">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="./students.html">Students<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./parents.html">Parents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./faculty&staff.html">Faculty & Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./aluminae.html">Aluminae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./news.html">News</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="./html/Academics.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Academics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item stretched-link" href="./academics.html">ALU Advantage</a>
+                            <a class="dropdown-item" href="./academics.html">Undergraduate Programme</a>
+                            <a class="dropdown-item" href="./academics.html">ALU Difference</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Admission & Aid
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./admission&aid.html">Undergraduate admission</a>
+                            <a class="dropdown-item" href="./admission&aid.html">Start application</a>
+                            <a class="dropdown-item" href="./admission&aid.html">PostGraduate MBA</a>
+                            <a class="dropdown-item" href="./admission&aid.html">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Student Life
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./studentLife.html">Living at ALU</a>
+                            <a class="dropdown-item" href="./studentLife.html">Campus Life</a>
+                            <a class="dropdown-item" href="./studentLife.html">Student Organisation</a>
+                            <a class="dropdown-item" href="./studentLife.html">Student Handbook</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About ALU
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="./about.html">Our approach</a>
+                            <a class="dropdown-item" href="./about.html">Our learning model </a>
+                            <a class="dropdown-item" href="./about.html">Our leadership</a>
+                            <a class="dropdown-item" href="./about.html">The ALU Impact report</a>
+                            <a class="dropdown-item" href="./about.html">Faculty academic leadership</a>
+                            <a class="dropdown-item" href="./about.html">Our founding academic partner</a>
+                            <a class="dropdown-item" href="./about.html">Our policies</a>
+                        </div>
+                    </li>
+                    <li>
+                        <form>
+                            <!-- <input type="text" placeholder="Search..."> -->
+                            <div class="searchbar">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <div class="togglesearch">
+                                    <input type="text" placeholder="" />
+                                    <input type="button" onClick="refreshPage()" value="Search" />
+                                    <script>
+                                        function refreshPage() {
+                                            window.location.reload();
+                                        } 
+                                    </script>
+                                </div>
+                        </form>
+
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </div>
+
+    <div class="banner main-container">
+        <img src="../img/studentlifeban.jpg" alt="Admission & Aid Banner" height="auto" width="100%">
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="d-none d-md-block col-md-5 col-lg-4">
+
+                <!-- <h1 style="background-color: white;">Academics</h1> -->
+                <div class="sbar">
+                    <a href="" class="sp">Academic Support services</a><br />
+                    <a href="" class="sp">Work Study</a><br />
+                    <a href="" class="sp">Student Venture Program(SVP)</a><br />
+                    <a href="" class="sp">Internship</a><br />
+                    <a href="" class="sp">Testimonials</a><br />
+
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-7 col-lg-8">
+                <div>
+                    <h2 style="color: rgb(207,42,39);"><strong>Students at ALU</strong></h2>
+
+                    <p>
+                        ALU offers a wide variety of services aimed
+                        at building
+                        community and helping students achieve their dreams. Services are ongoing throughout the
+                        academic
+                        year and range from Academic support, work study to internships .
+                    </p>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-m-12 col-lg-12">
+                <h4 style="color: black;"><strong>Academic Support Services&rightarrow;</strong></h4>
+                <p>The Learning Efficacy and Advancement Programme (LEAP) advocates for student learning success through
+                    peer mentorship, writing, presenstation, and research coaching, and support on English as a second
+                    language acquisition. </p>
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+
+                        <img src="../img/WritingCenter.png" alt="writing center" class="img-fluid">
+                        <div style="background-color: #002e6d;color: white;">
+                            <h5 style=" text-align: center;">Writing Center Coach</h5>
+                            <p style=" text-align: left; padding: 5px;">Writing Centre Coaches support students in
+                                effectively communicating their ideas in writing and presentation for a variety of
+                                deliverables: public speaking assignments, personal creative writing, resumes,
+                                academic essays, and more.</p>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+
+                        <div style="background-color: #002e6d;color: white;">
+
+                            <img src="../img/Academic Coach.png" alt="Peer Mentor" class="img-fluid">
+                            <h5 style=" text-align: center;">Academic Peer Coach</h5>
+                            <p style=" text-align: left; padding: 5px;">Academic Support Coaches work with Leadership
+                                Core and their respective Degree Programme faculty and
+                                the LEAP team to promote the overall academic progress and retention of all ALC students
+                            </p>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div style="background-color: #002e6d;color: white;">
+
+                            <img src="../img/PeerMentor.png" alt="Peer Mentor" class="img-fluid">
+                            <h5 style=" text-align: center;">Language Support Coach</h5>
+                            <p style=" text-align: left; padding: 5px;">The Language Support team works to support
+                                students in English fluency. Language Support Programme Coaches collaborate with ALU
+                                Rwanda to organize
+                                and weekly facilitate academic and non-academic English learning lesson plans.</p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                &nbsp;
+                <div>
+                    <h4 style="color: black;"><strong>Work Study&rightarrow;</strong></h4>
+                    <p>ALC provides an opportunity for students to work part-time while they are studying.
+                        They are many workstudy opportunities available every term based on the different ALC
+                        department. Also, students are allowed to work part-time in other companies provided that they
+                        continue to pass well their exams.</p>
+
+                </div>
+                <div>
+                    <h4 style="color: black;"><strong>Student Venture Programme(SVP)&rightarrow;</strong></h4>
+                    <p>An information Hub on everything about entrepreneurship at ALC. SVP Support students in
+                        exploring, developing, testing, prototyping their creative ideas, build out ALC’s
+                        entrepreneurial ecosystem, and more. </p>
+                    <button type="button" class="btn">
+                        <a href="https://www.svp.alueducation.com/">Read More</a>
+
+                    </button>
+
+                </div>
+                &nbsp;
+                <div>
+                    <h4 style="color: black;"><strong>Internship&rightarrow;</strong></h4>
+                    <p>ALU Students have completed 650+ internships in the past 3 years in over 30 countries, including
+                        countries outside of Africa like China, France, Italy, Spain, and the United States.
+                        86% of our employer partner managers rate ALU interns above 4 on a scale of 5 compared to
+                        interns from other universities.</p>
+                    <img src="../img/intern.jpeg" alt="InternCompanies" class="img-fluid">
+                </div>
+                &nbsp;
+                <div class="testmonies">
+
+                    <h4 style="color: black;"><strong>Hear from ALU students About their Experience&rightarrow;</strong>
+                    </h4>
+
+                    <div class="row">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <div class="row">
+                                    <div class="col-sm-3 col-md-3 col-lg-3">
+                                        <img src="../img/Dagmawi.jpg" class="img-fluid"
+                                            style="max-height: 250px;">
+                                    </div>
+
+                                    <div class="col-sm-9 col-md-9 col-lg-9 my-auto">
+
+                                        <p class="">
+                                            Studying at the African Leadership University has given me an opportunity to develop
+                                             skills in an environment that acknowledges my passions for social impact to contribute to 
+                                             challenges and opportunities present in the African continent. As an education enthusiast who highly believes the African continent can only be transformed through education, I started the Students4Students Foundation.
+                                        Additionally, my internship experiences have also provided me get a wide range of skills 
+                                        that are applicable in various disciplines and working environment. It has also allowed me to gain the communication and networking skills needed to build long-term business relationships with partners.
+                                       
+                                        <p>Dagmawi Haileyesus Assefa – Engineering| Ethiopia </p>
+
+
+
+
+                                    </div>
+                                </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-sm-3 col-md-3 col-lg-3">
+                                        <img src="../img/Gogo.jpg" class="img-fluid" style="max-height: 250px;">
+                                    </div>
+
+                                    <div class="col-sm-9 col-md-9 col-lg-9 my-auto">
+
+                                        <p class="">
+                                            A personal key takeaway from my entire ALU experience has to be a quote
+                                            that my Social Science facilitator once mentioned in passing during
+                                            class. It was a statement made by James Ferguson who I consider to be an
+                                            important intellectual ancestor. It reads: "Where you are positioned
+                                            determines what you see." This phrase echoes in my mind as I continue on
+                                            my learning journey because it serves as a constant reminder that
+                                            position determines perspective. With this approach to life, it becomes
+                                            much easier to interact with people and navigate the world in all of its
+                                            uncertainties because it is not only underpinned by an acknowledgment of
+                                            the different paths we are on but also recognition that we must go
+                                            through our journeys with empathy and deep understanding of self and
+                                            other.
+                                            It is a lesson I intend to take with me throughout the rest of my life.
+
+                                        </p>
+                                        <p>Stephanie Gogo – Social Science | Ghana </p>
+
+
+
+
+                                    </div>
+                                 </div>
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-sm-3 col-md-3 col-lg-3">
+                                        <img src="../img/Randy.jpg" class="img-fluid" style="max-height: 250px;">
+                                    </div>
+
+                                    <div class="col-sm-9 col-md-9 col-lg-9 my-auto">
+
+                                        <p class="">
+                                            One thing I like about ALU is the work study program. It gives
+                                            students
+                                            the opportunity to practice what they do in class, develop new
+                                            skills, and most importantly take their first steps in the
+                                            professional world. I’m currently a study intern at ALC Mauritius
+                                            where, as a Residential Assistant, I drive the cultural integration
+                                            of over 100 students from 35+ countries by organising social events
+                                            and managing their queries. It’s an edifying experience in the sense
+                                            where it contributes to the development of my leadership, planning,
+                                            time management
+                                            and communication skills that I will need once I’m in the
+                                            professional world.
+                                        </p>
+                                        <p>Amara Rendy Soumahoro – Business Managemnet | Cote d'Ivoire </p>
+
+
+
+
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+
+        <div class="main-container">
+
+            <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-lg-6">
+
+                    <div>
+
+                        <h1>ABOUT ALU</h1>
+                        <p>
+                            ALU aims to develop 3 million ethical and entrepreneurial leaders for Africa and the
+                            world by 2035.
+                            It uses a personalized, student-driven, project-based, and mission-oriented approach
+                            to
+                            create agile, lifelong learners who can adapt to a changing world. ALU's first site
+                            was
+                            inaugurated in September 2015 in Mauritius.
+                            Its second campus was inaugurated in September 2017 in Kigali Heights, Rwanda.
+                        </p>
+
+
+                    </div>
+
+                    <div>
+                        <h2>Contact Us</h2>
+                    </div>
+
+                    <div id="SMLinks">
+
+                        <h3>SOCIAL MEDIA</h1>
+
+                            <a>
+                                <i class="fa fa-youtube"></i>
+                            </a>
+
+                            <a>
+                                <i class="fa fa-twitter"></i>
+                            </a>
+
+                            <a>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+
+                            <a>
+                                <i class="fa fa-facebook"></i>
+                            </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3">
+
+                    <h1>QUICK LINKS</h1>
+
+                    <ul>
+                        <li><a href="../html/academics.html">Academics </a></li>
+                        <li><a href="../html/admission&aid.html">Admission & Aid</a></li>
+                        <li><a href="../html/studentLife.html">Student Life</a></li>
+                        <li><a href="../html/about.html"> About ALU</a></li>
+                        <li><a href="../html/news.html">News</a></li>
+                        <li><a href="../html/students.html">Students</a></li>
+                        <li><a href="../html/faculty&staff.html">Faculty & Staff</a></li>
+                        <li><a href="../html/aluminae.html">Aluminae</a></li>
+                        <li><a href="../html/authors.html">Authors</a></li>
+                    </ul>
+
+                </div>
+
+                <div class=" col-sm-6 col-md-6 col-lg-3">
+
+                    <h1>CONTACT</h1>
+
+                    <div class="row location no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-map-marker icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>ALC Mauritius
+                            </h4>
+
+                            <p>
+                                African Leadership Campus,
+                                Powder Mill Rd,
+                                Pamplemousses, 21001
+                                Mauritius
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-map-marker icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4> ALU Rwanda
+                            </h4>
+
+                            <p>
+
+                                Kigali Heights,
+                                2nd floor,KG 7 Ave,
+                                Kigali,
+                                Rwanda
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-question-circle icon"></i>
+                        </div>
+
+                        <div class="col-11">
+
+
+                            <p>
+
+                                info@alueducation.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-microphone icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4> For all media inquiries:</h4>
+
+                            <p>
+
+
+                                jolson@alueducation.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-phone icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>Front desk:</h4>
+
+                            <p>
+                                Mauritius: +230 54 43 49 51 <br>
+                                Rwanda: +250 784 650 219
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-book icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>Admissions:</h4>
+
+                            <p>
+                                admissions@alueducation.com
+                                +230 5444 7827
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row no-gutters">
+
+                        <div class="col-1">
+                            <i class="fa fa-star icon"></i>
+                        </div>
+
+                        <div class="col-11">
+                            <h4>Careers:</h4>
+
+                            <p>
+                                hiring@alueducation.com
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src='../js/main.js'></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
