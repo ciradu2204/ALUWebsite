@@ -142,8 +142,11 @@ nav ul li a:hover{
         width: 100%;
         max-width: 100px;
         position: none;
-        left: 0 !important;
         height: auto;
+    }
+
+    .homeContainer .one{
+        display: none;
     }
 
     .spacing{
@@ -180,6 +183,18 @@ nav ul li a:hover{
         max-width: 100% !important;
         margin-left: 0!important;
         margin-right: 0!important;
+    }
+
+
+}
+
+@media (max-width: 1025px) {
+    .img-size{
+        width: 100%;
+        position: relative;
+        left: 50px !important;
+        max-width: 150px;
+        height: auto;
     }
 
 
@@ -449,7 +464,7 @@ blockquote p{
 .sbar {
     font-size: small;
     background-color: #002e6d;
-    padding: 5px;
+    padding: 15px;
     align-self:120px;
   } 
  
@@ -731,10 +746,20 @@ footer ul li{
     padding: 5px;
 }
 
+footer ul{
+    position: relative;
+    left: -45px;
+}
+
 footer .icon{
    
     color: #d0202f;
 
+}
+
+footer #QuickLinks{
+    position: relative; 
+    left: 5%;
 }
 
 footer .location{

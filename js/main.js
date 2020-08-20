@@ -1,7 +1,7 @@
 
-// $('.navbar .dropdown > a').click(function() {
-// 	   location.href = this.href;
-// });
+$('.navbar .dropdown > a').click(function() {
+	   location.href = this.href;
+});
 // search button
 $(document).ready(function() {
  
