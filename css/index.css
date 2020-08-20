@@ -149,8 +149,8 @@ nav ul li a:hover{
     .img-size{
         width: 100%;
         max-width: 70px !important;
-        position: relative;
-        left: 15px;
+        position: relative !important;
+        left: 15px !important;
         height: auto;
     }
 
