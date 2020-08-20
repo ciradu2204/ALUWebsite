@@ -148,6 +148,10 @@ nav ul li a:hover{
         display: none;
     }
 
+    .aluNews .one{
+        display: none;
+    }
+
     .spacing{
         margin-left: 0 !important;
     }
