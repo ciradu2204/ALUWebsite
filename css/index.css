@@ -145,11 +145,11 @@ nav ul li a:hover{
     }
 
     .homeContainer .one{
-        display: none;
+        display: none !important;
     }
 
     .aluNews .one{
-        display: none;
+        display: none !important;
     }
 
     .spacing{
