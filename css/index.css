@@ -149,8 +149,8 @@ nav ul li a:hover{
     .img-size{
         width: 100%;
         max-width: 70px !important;
-        position: relative !important;
-        left: 15px !important;
+        position: relative;
+        left: 15px;
         height: auto;
     }
 
@@ -220,7 +220,17 @@ nav ul li a:hover{
   }
   
 
- 
+@media (max-width: 1025px) {
+    .img-size{
+        width: 100%;
+        position: relative;
+        /* left: 50px !important; */
+        max-width: 150px;
+        height: auto;
+    }
+
+
+}
 .container{
       padding-top: 30px;
   }
